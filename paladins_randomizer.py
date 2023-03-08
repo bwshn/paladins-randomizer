@@ -43,8 +43,7 @@ print("Welcome to Paladins Complete Randomizer Picker!")
 ans = "yes"
 i = 1
 while (ans.lower() != "n" and ans.lower() != "no" and ans != "0"):
-    print("\n")
-    print("Trial: " + str(i))
+    print("\nTrial: " + str(i))
     print("Support: " + random.choice(Support))
     print("Tank: " + random.choice(Tank))
     print("Damage: " + random.choice(Damage))
@@ -53,6 +52,6 @@ while (ans.lower() != "n" and ans.lower() != "no" and ans != "0"):
     print("Mode: " + random.choice(Mode))
     print("Talent: " + random.choice(Talent))
     for j in Cards:
-        print("\t".join(map(str, j)))
+        print(" ".join(map(str, j)))
     ans = input("Continue?: ")
     i += 1
