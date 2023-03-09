@@ -1,8 +1,6 @@
 import random
 from datetime import datetime
 
-# TODO: put all the heros in a .txt file for further use
-
 Tank = ["Ash", "Atlas", "Azaan", "Barik", "Fernando", "Inara", "Khan",
         "Makoa", "Nyx", "Raum", "Ruckus", "Terminus", "Torvald", "Yagorath"]
 Damage = ["Betty la Bomba", "Bomb King", "Cassie", "Dredge", "Drogoz", "Imani", "Kasumi", "Kinessa",
